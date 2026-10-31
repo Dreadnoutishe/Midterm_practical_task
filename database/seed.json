@@ -1,0 +1,121 @@
+{
+  "criminals": [
+    {
+      "id": 1,
+      "name": "Kael Voss",
+      "nickname": "Void Viper",
+      "reward": 15000,
+      "last_known_location": "Europa, abandoned ice refinery",
+      "difficulty": 8,
+      "armed": true,
+      "has_crew": true,
+      "escape_master": true
+    },
+    {
+      "id": 2,
+      "name": null,
+      "nickname": "Ghost Comet",
+      "reward": 8500,
+      "last_known_location": "Asteroid belt, sector C-12",
+      "difficulty": 7,
+      "armed": false,
+      "has_crew": false,
+      "escape_master": true
+    },
+    {
+      "id": 3,
+      "name": "Rhea Draven",
+      "nickname": "Red Nova",
+      "reward": 25000,
+      "last_known_location": "Mars, underground docks",
+      "difficulty": 10,
+      "armed": true,
+      "has_crew": true,
+      "escape_master": false
+    },
+    {
+      "id": 4,
+      "name": "Orin Vale",
+      "nickname": "Scrap King",
+      "reward": 3000,
+      "last_known_location": "Titan, scrapyard settlement",
+      "difficulty": 3,
+      "armed": false,
+      "has_crew": true,
+      "escape_master": false
+    },
+    {
+      "id": 5,
+      "name": null,
+      "nickname": "Night Falcon",
+      "reward": 12000,
+      "last_known_location": "Ganymede, cargo terminal",
+      "difficulty": 6,
+      "armed": true,
+      "has_crew": false,
+      "escape_master": true
+    }
+  ],
+  "hunts": [
+    {
+      "id": 1,
+      "criminal_id": 1,
+      "success": false,
+      "notes": "Target escaped through an asteroid field."
+    },
+    {
+      "id": 2,
+      "criminal_id": 1,
+      "success": true,
+      "notes": "Captured at the refueling station."
+    },
+    {
+      "id": 3,
+      "criminal_id": 2,
+      "success": false,
+      "notes": "Decoy signal led to an empty ship."
+    },
+    {
+      "id": 4,
+      "criminal_id": 2,
+      "success": true,
+      "notes": "Target detained near the cargo terminal."
+    },
+    {
+      "id": 5,
+      "criminal_id": 3,
+      "success": false,
+      "notes": "Crew interference prevented capture."
+    },
+    {
+      "id": 6,
+      "criminal_id": 3,
+      "success": true,
+      "notes": "Captured after disabling the shuttle."
+    },
+    {
+      "id": 7,
+      "criminal_id": 4,
+      "success": false,
+      "notes": "Tracking beacon was discovered."
+    },
+    {
+      "id": 8,
+      "criminal_id": 4,
+      "success": true,
+      "notes": "Target surrendered at the checkpoint."
+    },
+    {
+      "id": 9,
+      "criminal_id": 5,
+      "success": false,
+      "notes": "Lost contact during a solar storm."
+    },
+    {
+      "id": 10,
+      "criminal_id": 5,
+      "success": true,
+      "notes": "Captured in an abandoned refinery."
+    }
+  ]
+}
